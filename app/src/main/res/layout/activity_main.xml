@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/uducity_img"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/brandtxt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/udacity"
+        android:textColor="#BBDEFB"
+        android:textSize="64sp"
+        android:layout_marginTop="80dp"
+        android:paddingTop="32dp"
+        android:paddingStart="16dp"
+        android:background="#af2196f3" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/brandtxt"
+        android:background="#af2196f3"
+        android:paddingStart="16dp"
+        android:paddingBottom="40dp"
+        android:text="@string/udacity_address"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</RelativeLayout>
+
+    <!--Design Requirements-->
+    <!--Design includes, at minimum, the following text (business name, address, and phone number):-->
+
+    <!--Udacity-->
+    <!--2465 Latham St-->
+    <!--Mountain View, CA 94043-->
+    <!--650-555-5555-->
+    <!--Design includes at least one image that the student feels represents the business in some way (creativity is fine, and encouraged!)-->
+
+    <!--Code Requirements-->
+    <!--At least one ViewGroup is included-->
+    <!--XML must include a RelativeLayout or LinearLayout-->
+    <!--ViewGroups contain at least one ImageView and at least one TextView-->
+    <!--The project must have one or more ImageViews and TextViews-->
