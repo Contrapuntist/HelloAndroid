@@ -46,6 +46,7 @@
         android:paddingTop="16dp"
         android:text="@string/udacity_address"
         android:textColor="@color/textColorPrimaryWht"
+        android:fontFamily="@font/raleway_regular"
         android:textSize="18sp" />
 
     <TextView
@@ -60,6 +61,6 @@
         android:textAlignment="center"
         android:textColor="@color/textColorPrimaryWht"
         android:textSize="25sp"
-        android:fontFamily="@font/Raleway_regular"/>
-
+        android:fontFamily="@font/raleway_regular"
+        />
 </RelativeLayout>
