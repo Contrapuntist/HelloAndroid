@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:contentDescription="background image of sky and stairs outside"
+        android:contentDescription="@string/background_img_description"
         android:scaleType="centerCrop"
         android:src="@drawable/uducity_img" />
 
@@ -59,6 +59,7 @@
         android:text="@string/gen_text"
         android:textAlignment="center"
         android:textColor="@color/textColorPrimaryWht"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        android:fontFamily="@font/Raleway_regular"/>
 
 </RelativeLayout>
